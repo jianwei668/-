@@ -52,6 +52,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const menuLeft = [
   { path: '/', label: '首页总览', icon: 'ri-dashboard-line' },
   { path: '/data', label: '基础数据管理', icon: 'ri-database-2-line' },
+  { path: '/model', label: '地质模型展示', icon: 'ri-earth-line' },
   { path: '/dynamic', label: '动力响应分析', icon: 'ri-pulse-line' },
   { path: '/energy', label: '能量演化分析', icon: 'ri-flashlight-line' }
 ]
